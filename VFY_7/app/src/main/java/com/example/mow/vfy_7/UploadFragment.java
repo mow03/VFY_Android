@@ -33,15 +33,17 @@ public class UploadFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        Button reload = (Button)getView().findViewById(R.id.reload);
 
 
-        mChooseVideo = getView().findViewById(R.id.button_choose);
-        mButtonUpload = getView().findViewById(R.id.button_upload);
-        mTextViewShowUploads= getView().findViewById(R.id.show_uploads);
-        mEditTextFileName = getView().findViewById(R.id.file_name);
-        mVideoView = getView().findViewById(R.id.video_view);
-        mProgressBar = getView().findViewById(R.id.progress_bar);
+        View view = inflater.inflate(R.layout.fragment_upload, container, false);
+
+        Button reload = view.findViewById(R.id.reload);
+        mChooseVideo = view.findViewById(R.id.button_choose);
+        mButtonUpload = view.findViewById(R.id.button_upload);
+        mTextViewShowUploads= view.findViewById(R.id.show_uploads);
+        mEditTextFileName = view.findViewById(R.id.file_name);
+        mVideoView = view.findViewById(R.id.video_view);
+        mProgressBar = view.findViewById(R.id.progress_bar);
 
 
         mChooseVideo.setOnClickListener(new View.OnClickListener(){
