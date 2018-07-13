@@ -37,6 +37,6 @@ public class uport_webview extends AppCompatActivity {
                 return true;
             }
         });
-        webView.loadUrl("http://1d5b3e71.ngrok.io/testuportlogin");
+        webView.loadUrl("http://1d5b3e71.ngrok.io/te    stuportlogin");
     }
 }

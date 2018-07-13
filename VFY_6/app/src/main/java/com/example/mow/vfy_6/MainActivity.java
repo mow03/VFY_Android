@@ -9,12 +9,15 @@ import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.EditText;
+
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
      WebView wv ;
+     EditText e1;
 
     //When you press back, it should go back
     @Override
@@ -76,6 +79,14 @@ public class MainActivity extends AppCompatActivity {
            }
        });
        webView.loadUrl("http://1d5b3e71.ngrok.io/testuportlogin");
+    }
+
+
+    public void send(View v){
+        Sender sender = new Sender();
+       // sender.execute(e1.getText().toString());
+
+
     }
 
    /* private void handleNewUrl(String url,WebView view){
