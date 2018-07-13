@@ -92,16 +92,16 @@ public class Main2Activity extends AppCompatActivity {
 
 
         dash = (Button) findViewById(R.id.button); // Dashboard
-       /* dash.setOnClickListener(new View.OnClickListener() {
+       dash.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openDashboard();
             }
-        }); */
+        });
     }
-        /*public void openDashboard(){
-            Intent intent = new Intent(this, NavDash.class);
+        public void openDashboard(){
+            Intent intent = new Intent(this, NavDrawer.class);
             startActivity(intent);
 
-    } */
+    }
 }
