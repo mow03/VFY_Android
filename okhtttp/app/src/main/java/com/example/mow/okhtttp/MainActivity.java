@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
         private void start(){
-            Request request = new Request.Builder().url("wss://echo.websocket.org").build();
+            Request request = new Request.Builder().url("http://18.216.54.14:8000").build();
             EchoWebSocketListener listener = new EchoWebSocketListener();
             WebSocket ws = client.newWebSocket(request, listener);
             client.dispatcher().executorService().shutdown();
