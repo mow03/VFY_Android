@@ -13,7 +13,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="73dp"
-        app:srcCompat="@color/colorPrimary" />
+        android:src="@drawable/test" />
 
     <Button
         android:id="@+id/button3"
