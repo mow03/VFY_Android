@@ -12,7 +12,14 @@
         android:layout_height="85dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="34dp"
         android:layout_marginStart="102dp"
         android:text="Dashboard" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
 </RelativeLayout>
