@@ -10,27 +10,27 @@
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="251dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="73dp"
+        android:layout_marginBottom="79dp"
         android:src="@drawable/test" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="155dp"
+        android:layout_width="140dp"
         android:layout_height="51dp"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="148dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"
         android:text="Browse" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="195dp"
-        android:layout_height="59dp"
-        android:layout_alignBottom="@+id/button3"
+        android:layout_height="134dp"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="13dp"
+        android:layout_alignTop="@+id/button3"
+        android:layout_marginEnd="24dp"
         android:hint="Image name" />
 
     <Button
@@ -39,7 +39,7 @@
         android:layout_height="45dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="46dp"
+        android:layout_marginBottom="21dp"
         android:text="Upload"
         android:textSize="20dp" />
 
