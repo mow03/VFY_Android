@@ -41,7 +41,7 @@ public class UportSetup extends AppCompatActivity {
             }
         });
 
-        webView.loadUrl("https://1d5b3e71.ngrok.io/testuportlogin");
+        webView.loadUrl("http://288fa3cc.ngrok.io/testuportlogin");
     }
 
     public void openActivity(){

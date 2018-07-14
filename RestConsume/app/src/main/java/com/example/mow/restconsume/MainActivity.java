@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         JsonObjectRequest objectRequest = new JsonObjectRequest(
 
-                Request.Method.GET, //1st Parameter
-                // Request.Method.POST,
+               // Request.Method.GET, //1st Parameter
+                Request.Method.POST,
 
                 Url, //2nd Parameter
 
